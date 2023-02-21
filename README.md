@@ -1,5 +1,4 @@
 # Assiut_University_Training
-# Assiut University Training-Newcomers
 
 | Name | Problems Count | Solved | Unsolved
 |---|:---:|:---:|---|
