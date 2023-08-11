@@ -6,13 +6,13 @@ int main()
     char X;
     cin >> X;
     int a = int(X);
-    if(a>=65 && a<=90){
+    if(a>='A' && a<='Z'){
         // cout<<"ALPHA"<<"\n"<<"IS CAPITAL"<< endl;
         a=a+32;
         cout <<char(a)<<endl;
 
         }
-    else if (a>=97 && a<=122) {
+    else if (a>='a' && a<='z') {
         // cout<<"ALPHA"<<"\n"<<"IS SMALL"<< endl;
         a=a-32;
         cout <<char(a)<<endl;
