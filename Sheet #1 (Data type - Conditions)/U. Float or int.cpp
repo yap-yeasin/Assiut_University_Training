@@ -1,3 +1,30 @@
+// Simple Solution By me
+
+// Solution (1)
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    double a;
+    cin >> a;
+    float temp = floor(a);
+    float chk = a-temp;
+    // cout<<a-temp<<endl;
+    // cout<<chk<<endl;
+
+    if (chk==0){
+        cout<<"int "<< temp <<endl;
+    }
+    else{
+        cout<<"float " << temp <<" "<<chk<<endl;
+    }
+    return 0;
+}
+
+
+// Solution (2)
+
 #include<bits/stdc++.h>
 using namespace std;
 
