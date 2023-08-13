@@ -8,7 +8,7 @@ int main()
     cin >> k>>s;
     int count=0;
 	for (int i = 0; i <=k ; i++){
-        for(int j=0;j<=k;j++){
+		for(int j=0;j<=k;j++){
             // y = i;
             // z = j;
             x=s-j-i;
