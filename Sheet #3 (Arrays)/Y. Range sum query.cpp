@@ -8,7 +8,7 @@ int main(){
     long long arr[n] , sum_arr[n];
     for (int i = 1 ; i <= n ; i++){
         cin >> arr[i];
-        sum_arr[i] = arr[i] + sum_arr[i - 1];
+        sum_arr[i] = arr[i] + sum_arr[i - 1]; // Sequential Sum > ক্রমযোজিত যোগফল
     }
     while (td--){
         int l , r;
